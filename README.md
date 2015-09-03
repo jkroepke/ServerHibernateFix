@@ -6,7 +6,7 @@ A Sourcemod Plugin to work-around the [workshop map server hibernate problem](ht
 Dependencies
 ------------
 * [Counter-Strike: Global Offensive](http://store.steampowered.com/app/730/)
-* [SourceMod](http://www.sourcemod.net/) at least version 1.5.3
+* [SourceMod](http://www.sourcemod.net/) at least version 1.7.1
 
 Installation
 ------------
@@ -28,6 +28,11 @@ sm_shf_default_map "de_dust"
 // Minimum: "0.000000"
 // Maximum: "1.000000"
 sm_shf_enabled "1"
+
+// Execute config when fallback to default map
+// -
+// Default: ""
+sm_shf_execute_config ""
 
 // Trigger action if clients are <1 = Ingame, 0 = Connected/Default>
 // -
